@@ -240,7 +240,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": ""
+      "sch_revision": "first revision"
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -466,7 +466,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
       "similar_label_and_power": "warning",
@@ -648,7 +648,7 @@
         "uuid": "52b8cc89-874f-4cef-9400-6a059fb6c311"
       }
     ],
-    "used_designators": "J1-2",
+    "used_designators": "J1-3,U1-3,VR1-2",
     "variants": []
   },
   "sheets": [
