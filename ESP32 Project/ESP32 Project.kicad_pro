@@ -656,13 +656,17 @@
         "uuid": "52b8cc89-874f-4cef-9400-6a059fb6c311"
       }
     ],
-    "used_designators": "#FLG1-3,R1-9,J1-3,U1-3,F1-2,VR1-2,D1-3,#PWR1-9,C1-5",
+    "used_designators": "#FLG1-3,R1-9,J1-3,U1-6,F1-2,VR1-2,D1-3,#PWR1-9,C1-5",
     "variants": []
   },
   "sheets": [
     [
       "52b8cc89-874f-4cef-9400-6a059fb6c311",
       "Root"
+    ],
+    [
+      "6085c309-5041-4ae1-96f0-edf60409793b",
+      "Esp32-C2-02"
     ]
   ],
   "text_variables": {},
