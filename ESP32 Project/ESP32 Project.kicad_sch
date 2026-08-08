@@ -4490,6 +4490,26 @@
 		)
 		(uuid "25f98d78-a7c6-4d85-8ee3-1864d9facd8a")
 	)
+	(label "USB-DP"
+		(at 208.28 114.3 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3e22ade9-b3c1-45e4-81e3-79963cde6a76")
+	)
+	(label "USB-DN"
+		(at 208.28 118.11 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "45384951-68a6-415f-a5e6-bcace417dba3")
+	)
 	(label "Charging power good"
 		(at 189.23 40.64 90)
 		(effects
@@ -4529,6 +4549,16 @@
 			(justify left bottom)
 		)
 		(uuid "6676a53e-be85-4763-b47d-5e9c87d7c1f1")
+	)
+	(label "VBUS"
+		(at 208.28 121.92 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6ae8ee6f-9afa-4bcc-9c86-391e90e0c42f")
 	)
 	(label "USB-DP"
 		(at 76.2 45.72 0)
@@ -8778,7 +8808,7 @@
 		)
 	)
 	(sheet
-		(at 141.605 107.95)
+		(at 164.465 105.41)
 		(size 43.815 49.53)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8788,13 +8818,14 @@
 		(stroke
 			(width 0.1524)
 			(type solid)
+			(color 57 78 255 1)
 		)
 		(fill
-			(color 0 0 0 0)
+			(color 133 255 255 1)
 		)
 		(uuid "6085c309-5041-4ae1-96f0-edf60409793b")
 		(property "Sheetname" "Esp32-C2-02"
-			(at 141.605 107.2384 0)
+			(at 164.465 104.6984 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8805,7 +8836,7 @@
 			)
 		)
 		(property "Sheetfile" "esp32-c3-02.kicad_sch"
-			(at 141.605 158.0646 0)
+			(at 164.465 155.5246 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8813,6 +8844,36 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "USB-DP" input
+			(at 208.28 114.3 0)
+			(uuid "87bfdf9e-ae24-49a7-8928-a663df4601c0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USB-DN" input
+			(at 208.28 118.11 0)
+			(uuid "14c7f62a-477e-4e68-b394-e5ddd1b2c0c0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VBUS" input
+			(at 208.28 121.92 0)
+			(uuid "c5873ce5-c1fd-484c-baf6-0277ed94eb9c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances

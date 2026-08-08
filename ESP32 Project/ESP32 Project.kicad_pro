@@ -656,7 +656,7 @@
         "uuid": "52b8cc89-874f-4cef-9400-6a059fb6c311"
       }
     ],
-    "used_designators": "#FLG1-3,R1-9,J1-3,U1-6,F1-2,VR1-2,D1-3,#PWR1-9,C1-5",
+    "used_designators": "#FLG1-3,R1-9,R11-16,R19,R21-22,J1-3,U1-7,F1-2,VR1-2,D1-3,D5-6,#PWR1-9,#PWR13-29,C1-5,C7-9,C12-14,TP1-5",
     "variants": []
   },
   "sheets": [
@@ -667,6 +667,14 @@
     [
       "6085c309-5041-4ae1-96f0-edf60409793b",
       "Esp32-C2-02"
+    ],
+    [
+      "03b1f1e9-8a18-4af6-9122-b075f5380c8d",
+      "Sensors"
+    ],
+    [
+      "aa67c358-d1ac-4035-a95c-b8f0164a1e1f",
+      "PAGE 4"
     ]
   ],
   "text_variables": {},
