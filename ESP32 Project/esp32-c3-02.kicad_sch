@@ -9219,10 +9219,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "e12d62ce-cf2a-477f-8850-3e0c3d568453")
+			(uuid "e12d62ce-cf2a-477f-8850-3e0c3d568454")
 		)
 		(pin "1"
-			(uuid "d9ce0d44-3227-40c0-aac9-3d03dcd23056")
+			(uuid "d9ce0d44-3227-40c0-aac9-3d03dcd23057")
 		)
 		(instances
 			(project "ESP32 Project"
