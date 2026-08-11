@@ -3,4 +3,7 @@
 	(lib (name "ESP32-C3-WROOM-02-H4") (type "KiCad") (uri "${KIPRJMOD}/Symbol and footprint libraries for esp32 project/Esp32 c3 wroom 02/ESP32-C3-WROOM-02-H4.kicad_sym") (options "") (descr ""))
 	(lib (name "2338792-1") (type "KiCad") (uri "${KIPRJMOD}/Symbol and footprint libraries for esp32 project/2338792-1/2338792-1.kicad_sym") (options "") (descr ""))
 	(lib (name "LM1117MPX-3.3") (type "KiCad") (uri "${KIPRJMOD}/Symbol and footprint libraries for esp32 project/LM1117MPX-3.3/LM1117MPX-3.3.kicad_sym") (options "") (descr ""))
+	(lib (name "TEMT6000X01") (type "KiCad") (uri "${KIPRJMOD}/Symbol and footprint libraries for esp32 project/TEMT6000X01/TEMT6000X01.kicad_sym") (options "") (descr ""))
+	(lib (name "MAX4466EXK") (type "KiCad") (uri "${KIPRJMOD}/Symbol and footprint libraries for esp32 project/MAX4466EXK/MAX4466EXK.kicad_sym") (options "") (descr ""))
+	(lib (name "CMC-5042PF-AC") (type "KiCad") (uri "${KIPRJMOD}/Symbol and footprint libraries for esp32 project/CMC-5042PF-AC/CMC-5042PF-AC.kicad_sym") (options "") (descr ""))
 )
