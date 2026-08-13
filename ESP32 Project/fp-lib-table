@@ -6,4 +6,6 @@
 	(lib (name "CMC-5042PF-AC") (type "KiCad") (uri "${KIPRJMOD}/Symbol and footprint libraries for esp32 project/CMC-5042PF-AC") (options "") (descr ""))
 	(lib (name "MAX4466EXK") (type "KiCad") (uri "${KIPRJMOD}/Symbol and footprint libraries for esp32 project/MAX4466EXK") (options "") (descr ""))
 	(lib (name "TEMT6000X01") (type "KiCad") (uri "${KIPRJMOD}/Symbol and footprint libraries for esp32 project/TEMT6000X01") (options "") (descr ""))
+	(lib (name "B4B-XH-AM__LF__SN_") (type "KiCad") (uri "${KIPRJMOD}/Symbol and footprint libraries for esp32 project/B4B-XH-AM__LF__SN_") (options "") (descr ""))
+	(lib (name "USLPT2819DT2TR") (type "KiCad") (uri "${KIPRJMOD}/Symbol and footprint libraries for esp32 project/USLPT2819DT2TR") (options "") (descr ""))
 )

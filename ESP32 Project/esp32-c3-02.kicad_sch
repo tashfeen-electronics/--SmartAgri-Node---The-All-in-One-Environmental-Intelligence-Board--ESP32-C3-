@@ -3956,6 +3956,17 @@
 		)
 		(uuid "9ef13006-725b-4050-8458-6420b8e5395c")
 	)
+	(text "Page 4 contains the subcircuits for the boot and en buttons, \nand the headers for the gpio and i2c pins.\n"
+		(exclude_from_sim no)
+		(at 144.78 191.77 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify bottom)
+		)
+		(uuid "a3f18331-ceb1-4d84-810d-3c96e1ca77c2")
+	)
 	(text "ESP32-C3-WROOOM02"
 		(exclude_from_sim no)
 		(at 194.31 19.05 0)
@@ -5050,6 +5061,26 @@
 		)
 		(uuid "03b9219a-ae6d-4353-944f-3a732c1c7e3b")
 	)
+	(label "MIC-OUT"
+		(at 181.61 101.6 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "04f616ca-4e44-4a36-bb2f-b09dd1ba112c")
+	)
+	(label "SDA"
+		(at 181.61 118.11 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "089221d7-528a-4501-906d-22bc6a02b058")
+	)
 	(label "BOOT"
 		(at 252.73 55.88 0)
 		(effects
@@ -5210,7 +5241,7 @@
 		)
 		(uuid "7650b37d-c2c4-48e5-a378-3ebb6f160237")
 	)
-	(label "PHOTO-S"
+	(label "PHOTO-C"
 		(at 217.17 53.34 180)
 		(effects
 			(font
@@ -5229,6 +5260,16 @@
 			(justify left bottom)
 		)
 		(uuid "7ad9f8ca-bb71-490d-900a-c7d2796f22f7")
+	)
+	(label "SCL"
+		(at 181.61 113.03 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7b8cbb0a-f0fb-4332-9144-63be762b7127")
 	)
 	(label "RTS"
 		(at 85.09 50.8 0)
@@ -5299,6 +5340,16 @@
 			(justify right bottom)
 		)
 		(uuid "ba74fb5d-cc70-47e7-912d-158e1c162d8a")
+	)
+	(label "PHOTO-C"
+		(at 181.61 106.68 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c0a42406-27c5-40e5-b3a3-c9580a360e33")
 	)
 	(label "MISO-DO"
 		(at 151.13 39.37 0)
@@ -9913,6 +9964,46 @@
 				(justify left top)
 			)
 		)
+		(pin "Mic_OUT" output
+			(at 181.61 101.6 0)
+			(uuid "2bc4fba1-da84-49b8-9d5c-3ee31955e261")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PHOTO C" output
+			(at 181.61 106.68 0)
+			(uuid "f33d6129-d5f2-4275-bab2-065228d71809")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SCL" input
+			(at 181.61 113.03 0)
+			(uuid "e6e751a1-6c5e-4f6d-8465-8948a6a04ecc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SDA" input
+			(at 181.61 118.11 0)
+			(uuid "b0114ef4-07ab-42dd-bf60-3152ce4d3313")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "ESP32 Project"
 				(path "/52b8cc89-874f-4cef-9400-6a059fb6c311/6085c309-5041-4ae1-96f0-edf60409793b"
@@ -9922,7 +10013,7 @@
 		)
 	)
 	(sheet
-		(at 134.62 142.24)
+		(at 128.27 143.51)
 		(size 34.29 40.64)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9938,7 +10029,7 @@
 		)
 		(uuid "aa67c358-d1ac-4035-a95c-b8f0164a1e1f")
 		(property "Sheetname" "PAGE 4"
-			(at 134.62 141.5284 0)
+			(at 128.27 142.7984 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9949,7 +10040,7 @@
 			)
 		)
 		(property "Sheetfile" "untitled.kicad_sch"
-			(at 134.62 183.4646 0)
+			(at 128.27 184.7346 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
