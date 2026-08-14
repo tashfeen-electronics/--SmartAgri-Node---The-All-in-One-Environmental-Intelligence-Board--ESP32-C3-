@@ -5121,6 +5121,16 @@
 		)
 		(uuid "1f292708-4135-44f8-8a92-c3751ab718c6")
 	)
+	(label "GPIO18"
+		(at 162.56 166.37 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2075f0c2-9cc7-4d7b-a1c6-86d620e65362")
+	)
 	(label "SCL"
 		(at 217.17 58.42 180)
 		(effects
@@ -5130,6 +5140,16 @@
 			(justify right bottom)
 		)
 		(uuid "21a0d826-7585-49de-bcea-fde00510a28f")
+	)
+	(label "DTR"
+		(at 162.56 149.86 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "21fba5e8-55a5-4034-a210-ba21b99d0d9a")
 	)
 	(label "CS-SD"
 		(at 255.27 128.27 270)
@@ -5160,6 +5180,26 @@
 			(justify left bottom)
 		)
 		(uuid "39f629e7-7f47-4ef8-96dc-20512266cce9")
+	)
+	(label "BOOT"
+		(at 128.27 175.26 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "3f3a1149-5e27-4cad-bcc3-03e64b194f2b")
+	)
+	(label "SCL"
+		(at 128.27 153.67 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "46bda203-78a1-4abd-8612-9fc6b3040990")
 	)
 	(label "SCLK"
 		(at 58.42 156.21 180)
@@ -5210,6 +5250,26 @@
 			(justify left bottom)
 		)
 		(uuid "5e73a121-83c2-49df-9e4c-a9650185c568")
+	)
+	(label "GPIO8"
+		(at 162.56 162.56 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "69d52794-d12d-4cd4-b3b2-e77be1b8ad7c")
+	)
+	(label "RTS"
+		(at 162.56 153.67 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6dac9baf-0ea8-4668-b3d5-95317659c0d5")
 	)
 	(label "GPIO18"
 		(at 252.73 60.96 0)
@@ -5281,7 +5341,7 @@
 		)
 		(uuid "831dd553-58ab-44a7-8150-150bf0110c7c")
 	)
-	(label "CTS"
+	(label "DTR"
 		(at 85.09 53.34 0)
 		(effects
 			(font
@@ -5311,6 +5371,16 @@
 		)
 		(uuid "a15f5107-fbf8-491d-929d-9ebfa048a942")
 	)
+	(label "GPIO19"
+		(at 162.56 170.18 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a1fe0e12-d884-4c4b-ac0b-355cf88dbb08")
+	)
 	(label "USB D+"
 		(at 49.53 63.5 0)
 		(effects
@@ -5331,6 +5401,16 @@
 		)
 		(uuid "b373bf6d-584a-4e0d-8f13-26ce6009c211")
 	)
+	(label "EN"
+		(at 128.27 171.45 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b6208f17-2da9-4584-b768-b71db9799bf2")
+	)
 	(label "SDA"
 		(at 217.17 60.96 180)
 		(effects
@@ -5350,6 +5430,16 @@
 			(justify left bottom)
 		)
 		(uuid "c0a42406-27c5-40e5-b3a3-c9580a360e33")
+	)
+	(label "SDA"
+		(at 128.27 157.48 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c0bbd080-a285-409b-ac89-f8276c09d849")
 	)
 	(label "MISO-DO"
 		(at 151.13 39.37 0)
@@ -5852,6 +5942,16 @@
 				(justify bottom)
 			)
 		)
+		(property "Purpose" ""
+			(at 233.68 128.27 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "8"
 			(uuid "acf612f5-74af-4a9a-82f5-ccf3e29b6ba6")
 		)
@@ -5939,7 +6039,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 45.72 168.148 90)
 			(hide yes)
 			(show_name no)
@@ -6009,7 +6109,7 @@
 		(dnp no)
 		(uuid "10ec678e-52d8-4976-9c61-891b175dac6a")
 		(property "Reference" "C13"
-			(at 261.62 107.95 90)
+			(at 267.97 102.87 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6019,7 +6119,7 @@
 			)
 		)
 		(property "Value" "0.1u"
-			(at 264.16 107.95 90)
+			(at 267.97 100.33 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6028,7 +6128,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 262.5852 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -6108,7 +6208,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 201.93 67.818 90)
 			(hide yes)
 			(show_name no)
@@ -6199,7 +6299,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 146.05 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -6356,7 +6456,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 19.812 64.77 90)
 			(hide yes)
 			(show_name no)
@@ -6525,7 +6625,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 146.05 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -6680,7 +6780,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:CP_Elec_4x3"
 			(at 48.26 18.0848 0)
 			(hide yes)
 			(show_name no)
@@ -6839,7 +6939,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 146.05 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -7009,7 +7109,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 146.05 25.4 0)
 			(hide yes)
 			(show_name no)
@@ -7088,7 +7188,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:SiliconLabs_QFN-20-1EP_3x3mm_P0.5mm"
+		(property "Footprint" "Package_DFN_QFN:QFN-20-1EP_3x3mm_P0.45mm_EP1.6x1.6mm"
 			(at 104.14 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -7113,6 +7213,16 @@
 		(property "Description" "USB to UART master bridge, QFN-20"
 			(at 72.39 68.58 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Purpose" ""
+			(at 72.39 68.58 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7550,7 +7660,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 98.0948 157.48 0)
 			(hide yes)
 			(show_name no)
@@ -7709,7 +7819,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 146.05 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -7845,7 +7955,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7aa81491-251a-431f-be3e-d0bf0634992f")
-		(property "Reference" "R21"
+		(property "Reference" "R16"
 			(at 270.51 114.3 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7865,7 +7975,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 270.51 118.618 90)
 			(hide yes)
 			(show_name no)
@@ -7917,7 +8027,7 @@
 		(instances
 			(project "ESP32 Project"
 				(path "/52b8cc89-874f-4cef-9400-6a059fb6c311/6085c309-5041-4ae1-96f0-edf60409793b"
-					(reference "R21")
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -8247,7 +8357,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "863db5d5-cf00-41af-948e-68dcedfbe475")
-		(property "Reference" "R5"
+		(property "Reference" "R15"
 			(at 264.16 55.88 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8267,7 +8377,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 264.16 52.578 90)
 			(hide yes)
 			(show_name no)
@@ -8319,7 +8429,7 @@
 		(instances
 			(project "ESP32 Project"
 				(path "/52b8cc89-874f-4cef-9400-6a059fb6c311/6085c309-5041-4ae1-96f0-edf60409793b"
-					(reference "R5")
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -8358,7 +8468,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 32.7152 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -8516,7 +8626,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 93.98 88.138 90)
 			(hide yes)
 			(show_name no)
@@ -8606,7 +8716,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:CP_Elec_4x3"
 			(at 253.0348 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -8685,7 +8795,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 275.2852 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -8765,7 +8875,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 55.88 47.498 90)
 			(hide yes)
 			(show_name no)
@@ -8845,7 +8955,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 261.62 130.048 90)
 			(hide yes)
 			(show_name no)
@@ -8935,7 +9045,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ESP32-C3-WROOM-02-H4:MODULE_ESP32-C3-WROOM-02-H4"
+		(property "Footprint" "Esp32 c3 wroom 02:MODULE_ESP32-C3-WROOM-02-H4"
 			(at 234.95 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -9064,6 +9174,16 @@
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+			)
+		)
+		(property "Purpose" ""
+			(at 234.95 60.96 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "21"
@@ -9226,7 +9346,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 19.812 50.8 90)
 			(hide yes)
 			(show_name no)
@@ -9394,7 +9514,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:CP_Elec_4x3"
 			(at 265.7348 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -9694,7 +9814,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 93.98 83.058 90)
 			(hide yes)
 			(show_name no)
@@ -9783,7 +9903,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 48.26 27.6352 0)
 			(hide yes)
 			(show_name no)
@@ -10048,6 +10168,96 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "DTR" bidirectional
+			(at 162.56 149.86 0)
+			(uuid "2ea6e3ab-5a59-487e-bb82-b616c151b075")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "EN" input
+			(at 128.27 171.45 180)
+			(uuid "8b5431ae-e022-4447-bd95-80d43373e3fb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GPIO8" bidirectional
+			(at 162.56 162.56 0)
+			(uuid "ffeedecb-151a-4139-acf5-1554be845cff")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GPIO18" bidirectional
+			(at 162.56 166.37 0)
+			(uuid "88f621ef-33e7-4f22-a6c3-ffe0ffee26a2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "IO0 {slash} BOOT" input
+			(at 128.27 175.26 180)
+			(uuid "1ca5d5fc-1d6c-4f36-8d29-3f4cd5cb406b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RTS" bidirectional
+			(at 162.56 153.67 0)
+			(uuid "a970665c-23d6-4f52-9521-6e5a778c7c92")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SCL" bidirectional
+			(at 128.27 153.67 180)
+			(uuid "c67c69c8-1641-4051-a6c5-4121239b2ba5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SDA" bidirectional
+			(at 128.27 157.48 180)
+			(uuid "e44b54e6-5ecb-4fbf-ae4d-66a54dbeb0a4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GPIO19" bidirectional
+			(at 162.56 170.18 0)
+			(uuid "13990e17-6cfe-47ea-bf85-36f53a5877a0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances

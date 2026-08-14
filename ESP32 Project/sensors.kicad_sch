@@ -3138,7 +3138,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "13e544c8-fd37-4cd8-ba37-ee6b191f384e")
-		(property "Reference" "R31"
+		(property "Reference" "R32"
 			(at 163.83 30.4801 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3160,7 +3160,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 168.148 29.21 90)
 			(hide yes)
 			(show_name no)
@@ -3212,7 +3212,7 @@
 		(instances
 			(project "ESP32 Project"
 				(path "/52b8cc89-874f-4cef-9400-6a059fb6c311/6085c309-5041-4ae1-96f0-edf60409793b/03b1f1e9-8a18-4af6-9122-b075f5380c8d"
-					(reference "R31")
+					(reference "R32")
 					(unit 1)
 				)
 			)
@@ -3486,7 +3486,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 36.322 50.8 90)
 			(hide yes)
 			(show_name no)
@@ -3567,7 +3567,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 196.088 58.42 90)
 			(hide yes)
 			(show_name no)
@@ -3659,7 +3659,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 49.022 120.65 90)
 			(hide yes)
 			(show_name no)
@@ -3751,7 +3751,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 26.162 50.8 90)
 			(hide yes)
 			(show_name no)
@@ -3910,7 +3910,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 211.328 66.04 90)
 			(hide yes)
 			(show_name no)
@@ -4136,7 +4136,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "655dec67-96da-4cad-b815-7f3365f31909")
-		(property "Reference" "C21"
+		(property "Reference" "C25"
 			(at 153.67 29.21 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4156,7 +4156,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 149.86 37.7952 0)
 			(hide yes)
 			(show_name no)
@@ -4198,7 +4198,7 @@
 		(instances
 			(project "ESP32 Project"
 				(path "/52b8cc89-874f-4cef-9400-6a059fb6c311/6085c309-5041-4ae1-96f0-edf60409793b/03b1f1e9-8a18-4af6-9122-b075f5380c8d"
-					(reference "C21")
+					(reference "C25")
 					(unit 1)
 				)
 			)
@@ -4237,7 +4237,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 168.148 43.18 90)
 			(hide yes)
 			(show_name no)
@@ -4649,7 +4649,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 267.0048 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -4886,7 +4886,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 196.088 43.18 90)
 			(hide yes)
 			(show_name no)
@@ -5269,7 +5269,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 247.65 74.168 90)
 			(hide yes)
 			(show_name no)
@@ -5417,7 +5417,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bbc5ed26-a999-41bc-9329-5bdfc0ff7e75")
-		(property "Reference" "C20"
+		(property "Reference" "C24"
 			(at 180.34 43.18 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5437,7 +5437,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 176.53 51.7652 0)
 			(hide yes)
 			(show_name no)
@@ -5470,6 +5470,16 @@
 				)
 			)
 		)
+		(property "Purpose" ""
+			(at 180.34 50.8 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "ec015d0f-9dfd-4224-8d9e-afd5c12c3ded")
 		)
@@ -5479,7 +5489,7 @@
 		(instances
 			(project "ESP32 Project"
 				(path "/52b8cc89-874f-4cef-9400-6a059fb6c311/6085c309-5041-4ae1-96f0-edf60409793b/03b1f1e9-8a18-4af6-9122-b075f5380c8d"
-					(reference "C20")
+					(reference "C24")
 					(unit 1)
 				)
 			)
@@ -5518,7 +5528,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 65.0748 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -5679,7 +5689,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 210.5152 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -5859,7 +5869,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 243.84 84.7852 0)
 			(hide yes)
 			(show_name no)

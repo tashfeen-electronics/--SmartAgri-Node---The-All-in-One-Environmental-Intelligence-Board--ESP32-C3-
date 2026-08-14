@@ -3374,7 +3374,7 @@
 	)
 	(rectangle
 		(start 15.875 16.51)
-		(end 127 83.82)
+		(end 127 90.17)
 		(stroke
 			(width 0)
 			(type default)
@@ -3445,6 +3445,66 @@
 			)
 		)
 		(uuid "c3f25a08-f302-4082-ad5f-f0deeaf8f6f8")
+	)
+	(text_box "USB-C allows for reversible cable insertion. Both pairs of data pins (DP1/DN1 and DP2/DN2) are electrically identical but physically flipped depending on the cable orientation."
+		(exclude_from_sim no)
+		(at 20.32 73.66 0)
+		(size 39.37 14.1714)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "4ffd81b6-3209-4165-971e-48d898c2a6c7")
+	)
+	(text_box "The CP2102 module does not require the USB 3.x TX+/TX- and RX+/RX- pins, as it only supports USB 2.0 communication via D+ and D-."
+		(exclude_from_sim no)
+		(at 106.68 43.18 0)
+		(size 19.05 22.86)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "b8771598-f94e-40a8-9a43-0a12cf434b7d")
+	)
+	(text_box "> The SBU1 and SBU2 pins on a USB-C connector are Sideband Use (SBU) pins. They are part of the USB-C standard and serve specialized roles depending on the application, primarily in Alternate Modes (e.g., DisplayPort, Thunderbolt) and certain USB-C accessories.\n> For basic USB 2.0/3.0 operation (like in your ESP32-C3-02 design), the SBU pins are not used and can be left unconnected or handled with optional protective measures."
+		(exclude_from_sim no)
+		(at 60.96 68.58 0)
+		(size 64.77 19.0499)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "eb3cd1bc-243a-4670-bb18-86a67689737a")
 	)
 	(junction
 		(at 85.09 55.88)
@@ -3531,10 +3591,10 @@
 		(uuid "a088d2fc-7c63-4339-84f1-d4ac0469a450")
 	)
 	(junction
-		(at 93.98 127)
+		(at 39.37 33.02)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "a4a741d9-2583-4889-958a-808cb8ec7bde")
+		(uuid "b777b53b-d597-466c-8d12-7986f5c13d69")
 	)
 	(junction
 		(at 85.09 59.69)
@@ -3612,6 +3672,16 @@
 	)
 	(wire
 		(pts
+			(xy 80.01 123.19) (xy 80.01 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "047ae153-6f4b-4d77-9a4f-b2eba048d32f")
+	)
+	(wire
+		(pts
 			(xy 199.39 69.85) (xy 199.39 73.66)
 		)
 		(stroke
@@ -3629,6 +3699,16 @@
 			(type default)
 		)
 		(uuid "0b6012f7-4932-4913-95f6-add84a4126bf")
+	)
+	(wire
+		(pts
+			(xy 39.37 29.21) (xy 39.37 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d05a256-7183-42f2-b17a-101ff4861e9f")
 	)
 	(wire
 		(pts
@@ -3782,6 +3862,16 @@
 	)
 	(wire
 		(pts
+			(xy 39.37 33.02) (xy 40.64 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "365fe504-b46b-4982-a601-272794dc6be3")
+	)
+	(wire
+		(pts
 			(xy 199.39 48.26) (xy 215.9 48.26)
 		)
 		(stroke
@@ -3869,16 +3959,6 @@
 			(type default)
 		)
 		(uuid "564356c9-843f-408b-b3fb-919204e814b3")
-	)
-	(wire
-		(pts
-			(xy 83.82 127) (xy 93.98 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "573c9279-73ff-49cf-8941-758d1f544616")
 	)
 	(wire
 		(pts
@@ -4082,6 +4162,16 @@
 	)
 	(wire
 		(pts
+			(xy 36.83 33.02) (xy 39.37 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b551628-cc8c-40b8-bb6e-d79044bdc8bc")
+	)
+	(wire
+		(pts
 			(xy 76.2 143.51) (xy 83.82 143.51)
 		)
 		(stroke
@@ -4272,6 +4362,16 @@
 	)
 	(wire
 		(pts
+			(xy 251.46 63.5) (xy 257.81 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cabca0cb-ca3e-4074-94d8-346fce2f8ab3")
+	)
+	(wire
+		(pts
 			(xy 27.94 60.96) (xy 27.94 64.77)
 		)
 		(stroke
@@ -4302,6 +4402,16 @@
 	)
 	(wire
 		(pts
+			(xy 257.81 63.5) (xy 257.81 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5c9fd30-b7bb-4ba8-b382-739e9d027a91")
+	)
+	(wire
+		(pts
 			(xy 271.78 43.18) (xy 271.78 45.72)
 		)
 		(stroke
@@ -4319,6 +4429,16 @@
 			(type default)
 		)
 		(uuid "d75d1c2a-9600-4281-905e-f90776da2821")
+	)
+	(wire
+		(pts
+			(xy 83.82 127) (xy 93.98 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da28adfb-f59b-4564-a7d3-cc18022d21dd")
 	)
 	(wire
 		(pts
@@ -4691,7 +4811,7 @@
 		(uuid "f09b9359-ebf4-46ed-95f8-b8ba6a3fec4e")
 	)
 	(label "VBUS"
-		(at 40.64 33.02 180)
+		(at 36.83 33.02 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4779,162 +4899,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 93.98 127 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1139155e-364f-42dd-be03-c4c1a4367ce8")
-		(property "Reference" "#FLG03"
-			(at 93.98 125.095 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 93.98 121.92 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 93.98 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 93.98 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 93.98 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "2ad1c05e-ccd0-4722-8c88-82098300f575")
-		)
-		(instances
-			(project "ESP32 Project"
-				(path "/52b8cc89-874f-4cef-9400-6a059fb6c311"
-					(reference "#FLG03")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 252.73 77.47 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "21d33c44-e656-4e05-be40-100249d85fc4")
-		(property "Reference" "#FLG02"
-			(at 252.73 79.375 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 252.73 82.55 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 252.73 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 252.73 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 252.73 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "ad54eba3-89bf-4663-878f-7a4af1049f44")
-		)
-		(instances
-			(project "ESP32 Project"
-				(path "/52b8cc89-874f-4cef-9400-6a059fb6c311"
-					(reference "#FLG02")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "0ZCH0110AF2E:0ZCH0110AF2E")
 		(at 104.14 33.02 0)
 		(unit 1)
@@ -4945,7 +4909,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "27f6e675-4423-443c-a237-22e26ef1a752")
+		(uuid "0feb7ff6-e3d1-4ecf-a30c-d2e789af91be")
 		(property "Reference" "F1"
 			(at 104.4194 26.67 0)
 			(show_name no)
@@ -5169,16 +5133,104 @@
 				(justify bottom)
 			)
 		)
-		(pin "1"
-			(uuid "b375db34-5a0c-4f11-8880-38ac9bd0c1d9")
+		(property "Purpose" ""
+			(at 104.14 33.02 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(pin "2"
-			(uuid "75092768-eceb-427b-bd2a-a745a6b1bc6d")
+			(uuid "64511167-897a-48b1-9848-821ca89c2fa2")
+		)
+		(pin "1"
+			(uuid "ac44e5fc-bf96-42e0-80cb-5d6487d8d739")
 		)
 		(instances
 			(project "ESP32 Project"
 				(path "/52b8cc89-874f-4cef-9400-6a059fb6c311"
 					(reference "F1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 252.73 77.47 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "21d33c44-e656-4e05-be40-100249d85fc4")
+		(property "Reference" "#FLG02"
+			(at 252.73 79.375 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 252.73 82.55 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 252.73 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 252.73 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 252.73 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ad54eba3-89bf-4663-878f-7a4af1049f44")
+		)
+		(instances
+			(project "ESP32 Project"
+				(path "/52b8cc89-874f-4cef-9400-6a059fb6c311"
+					(reference "#FLG02")
 					(unit 1)
 				)
 			)
@@ -5450,7 +5502,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 187.452 52.07 90)
 			(hide yes)
 			(show_name no)
@@ -5541,7 +5593,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 93.6752 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -5623,7 +5675,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 93.0148 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -5839,6 +5891,162 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 257.81 64.77 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5198f2f6-ee5b-4777-ae37-0e210ae33ce0")
+		(property "Reference" "#PWR054"
+			(at 257.81 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 257.81 69.85 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 257.81 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 257.81 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 257.81 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5f75b6b1-7e23-4944-b072-c9a9ed4da6ab")
+		)
+		(instances
+			(project "ESP32 Project"
+				(path "/52b8cc89-874f-4cef-9400-6a059fb6c311"
+					(reference "#PWR054")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 39.37 29.21 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "53d1ea23-747a-4831-84b6-36f8998622a7")
+		(property "Reference" "#FLG04"
+			(at 39.37 27.305 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 39.37 24.13 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 39.37 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 39.37 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 39.37 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "79ef97f0-4bed-449b-bee0-07274339802a")
+		)
+		(instances
+			(project "ESP32 Project"
+				(path "/52b8cc89-874f-4cef-9400-6a059fb6c311"
+					(reference "#FLG04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 276.86 45.72 0)
 		(unit 1)
 		(body_style 1)
@@ -5947,7 +6155,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 192.532 52.07 90)
 			(hide yes)
 			(show_name no)
@@ -6007,7 +6215,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 80.01 127 0)
+		(at 80.01 123.19 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6018,7 +6226,7 @@
 		(fields_autoplaced yes)
 		(uuid "67f4cc2b-efbb-486e-9237-2ffabe023ea7")
 		(property "Reference" "#PWR08"
-			(at 80.01 130.81 0)
+			(at 80.01 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6029,7 +6237,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 80.01 121.92 0)
+			(at 80.01 118.11 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6039,7 +6247,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 80.01 127 0)
+			(at 80.01 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6050,7 +6258,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 80.01 127 0)
+			(at 80.01 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6061,7 +6269,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 80.01 127 0)
+			(at 80.01 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6117,7 +6325,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:CP_Elec_4x3"
 			(at 82.8548 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -6199,7 +6407,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:CP_Elec_4x3"
 			(at 31.4452 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -6279,7 +6487,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 197.612 52.07 90)
 			(hide yes)
 			(show_name no)
@@ -6368,7 +6576,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 261.62 44.958 90)
 			(hide yes)
 			(show_name no)
@@ -6752,7 +6960,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 262.89 129.032 90)
 			(hide yes)
 			(show_name no)
@@ -7001,7 +7209,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 86.868 52.07 90)
 			(hide yes)
 			(show_name no)
@@ -7508,7 +7716,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 21.2852 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -7853,6 +8061,16 @@
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+			)
+		)
+		(property "Purpose" ""
+			(at 58.42 45.72 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "B12"
@@ -8299,7 +8517,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 29.718 54.61 90)
 			(hide yes)
 			(show_name no)
@@ -8388,7 +8606,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 264.668 66.04 90)
 			(hide yes)
 			(show_name no)
@@ -8468,7 +8686,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10u"
+		(property "Value" "1u"
 			(at 243.205 84.455 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8479,7 +8697,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 240.9952 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -8660,7 +8878,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 261.62 50.038 90)
 			(hide yes)
 			(show_name no)
@@ -8749,7 +8967,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 271.018 66.04 90)
 			(hide yes)
 			(show_name no)
