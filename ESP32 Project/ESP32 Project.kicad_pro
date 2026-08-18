@@ -838,6 +838,10 @@
       {
         "netclass": "VBUS",
         "pattern": "/Vbat"
+      },
+      {
+        "netclass": "3.3Volt",
+        "pattern": "+3.3V"
       }
     ]
   },

@@ -5381,6 +5381,16 @@
 		)
 		(uuid "a1fe0e12-d884-4c4b-ac0b-355cf88dbb08")
 	)
+	(label "VBUS"
+		(at 39.37 58.42 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "aad93c09-435b-4c1d-816f-ac5f58248397")
+	)
 	(label "USB D+"
 		(at 49.53 63.5 0)
 		(effects
@@ -6780,7 +6790,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-6032-28_Kemet-C"
+		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-3216-12_Kemet-S"
 			(at 48.26 18.0848 0)
 			(hide yes)
 			(show_name no)
@@ -8716,7 +8726,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-6032-28_Kemet-C"
+		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-3216-12_Kemet-S"
 			(at 253.0348 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -9514,7 +9524,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-6032-28_Kemet-C"
+		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-3216-12_Kemet-S"
 			(at 265.7348 38.1 0)
 			(hide yes)
 			(show_name no)
