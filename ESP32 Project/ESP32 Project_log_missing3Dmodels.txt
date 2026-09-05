@@ -1,0 +1,1 @@
+[('U4', 'E:\\KICAD v10.4\\share\\kicad\\3dmodels\\Package_DFN_QFN.3dshapes\\QFN-20-1EP_3x3mm_P0.45mm_EP1.6x1.6mm.step')]
