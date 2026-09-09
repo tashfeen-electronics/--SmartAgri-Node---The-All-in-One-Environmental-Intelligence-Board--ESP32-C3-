@@ -128,7 +128,7 @@ This board uses a **4-layer stackup (Signal / GND / PWR / Signal)** instead of a
 
 ## 📋 Bill of Materials
 
-Full BOM with quantities and footprints is available in [`/BOM`](./BOM) *(add path once uploaded)*.
+Full BOM with quantities and footprints is available in <a href="https://github.com/username/repo" class="button">BOM</a>
 
 ---
 
