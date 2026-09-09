@@ -1,6 +1,7 @@
 # 🌾 SmartAgri Node — The All-in-One Environmental Intelligence Board— ESP32-C3 Environmental Monitoring PCB
 
 A custom 4-layer PCB designed in KiCad for smart agriculture and environmental data logging — built around the **ESP32-C3-WROOM-02-H4**, with onboard sensing, local storage, and off-grid power management.
+<img width="774" height="484" alt="image" src="https://github.com/user-attachments/assets/1d27216a-63c2-452a-8151-a8cc61c1e1ce" />
 
 ![Designed with KiCad](https://img.shields.io/badge/Designed%20with-KiCad-orange)
 ![Layers](https://img.shields.io/badge/PCB-4--Layer-blue)
