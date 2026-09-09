@@ -128,7 +128,7 @@ This board uses a **4-layer stackup (Signal / GND / PWR / Signal)** instead of a
 
 ## 📋 Bill of Materials
 
-Full BOM with quantities and footprints is available in <a href="https://github.com/username/repo" class="button">BOM</a>
+Full BOM with quantities and footprints is available in <a href="[https://github.com/username/repo](https://github.com/tashfeen-electronics/--SmartAgri-Node---The-All-in-One-Environmental-Intelligence-Board--ESP32-C3-/blob/main/ESP32%20Project/bom/ibom.html)" class="button">BOM</a>
 
 ---
 
