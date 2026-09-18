@@ -861,7 +861,7 @@
     "last_paths": {
       "idf": "",
       "netlist": "./",
-      "plot": "",
+      "plot": "bom/",
       "specctra_dsn": "",
       "vrml": ""
     },
